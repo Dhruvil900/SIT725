@@ -1,2 +1,2 @@
-# SIT725_1.1
-Its a starting repo for first task
+# SIT725
+This is the repository where all of my tasks of each week will be posted.
