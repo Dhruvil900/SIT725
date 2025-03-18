@@ -10,11 +10,6 @@ app.listen(port, () =>
 app.get("/add", (req, res) => {
   let num1 = parseFloat(req.query.num1);
   let num2 = parseFloat(req.query.num2);
-
-  if (isNaN(num1) || isNaN(num2)) {
-    return res.status(400).send({ error: "Invalid numbers" });
-  }
-
   let sum = num1 + num2;
   res.send({ result: sum });
 });
