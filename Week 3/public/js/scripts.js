@@ -51,16 +51,15 @@ const addCards = (items) => {
 };
 $(document).ready(function () {
     $(".materialboxed").materialbox();
-    $(".modal").modal(); // Ensure modal is initialized
+    $(".modal").modal(); 
   
-    // Open modal when button is clicked
     $("#clickMeButton").click(() => {
-      $("#modal1").modal("open"); // Opens the modal
+      $("#modal1").modal("open"); 
     });
   
     $("#formSubmit").click(() => {
       submitForm();
-      $("#modal1").modal("close"); // Optional: Close modal after submission
+      $("#modal1").modal("close"); 
     });
   
     addCards(cardList);
