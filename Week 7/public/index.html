@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SIT725 Week 7</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <h1>Welcome to SIT725 Week 7</h1>
+  <h3>Random number from server: <span id="number">--</span> <button id="newNumberBtn">New Number</button></h3>
+
+  <div>
+    <input type="text" id="userMessage" placeholder="Enter message here" />
+    <button id="sendMessageBtn">Send Message</button>
+  </div>
+
+  <div id="message-section"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

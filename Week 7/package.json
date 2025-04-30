@@ -1,0 +1,14 @@
+{
+  "name": "sit725-week7",
+  "version": "1.0.0",
+  "description": "SIT725 Week 7 Socket.IO Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2",
+    "socket.io": "^4.7.2"
+  }
+}
